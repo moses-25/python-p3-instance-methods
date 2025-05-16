@@ -7,3 +7,6 @@ class Dog:  # Class body goes here
 # Instance method definition
 fido = Dog()
 fido.bark()
+
+snoopy = Dog()
+snoopy.bark()
