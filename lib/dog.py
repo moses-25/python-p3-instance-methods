@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-class Dog:  # Class body goes here
+
+class Dog:
+    # Class body
     def bark(self):
-        print("woof!")
+        print("Woof!")
 
     def sit(self):
-        print("The dog is sitting")
+        print("The dog is sitting.")
 
-# Instance method definition
+# Creating instances and calling methods
 fido = Dog()
 fido.bark()
 fido.sit()
